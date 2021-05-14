@@ -1,0 +1,18 @@
+
+	DO A FROM 1 TO 36 {
+
+		DO B FROM 1 TO 4 {
+
+		FD 300
+		RT 90
+
+		}
+
+		FD 20
+		LT 90
+		FD 50
+		RT 10
+
+	}
+
+}

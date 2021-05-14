@@ -1,0 +1,257 @@
+********************************************************************
+
+*                  INTERPRETER - UNIT TESTING                      *
+
+********************************************************************
+
+
+== Entering suite #1, "check_inputs(): Checking inputs." ==
+
+Error: Too few arguments entered.
+[1:1]  test_check_inputs:#1  "Not enough arguments entered."  pass
+[1:2]  test_check_inputs:#2  "Correct number of arguments entered."  pass
+Error: Too few arguments entered.
+[1:3]  test_check_inputs:#3  "Not enough arguments entered."  pass
+Error: Too few arguments entered.
+[1:4]  test_check_inputs:#4  "Not enough arguments entered."  pass
+Error: Too few arguments entered.
+[1:5]  test_check_inputs:#5  "Not enough arguments entered."  pass
+Error: Too few arguments entered.
+[1:6]  test_check_inputs:#6  "Not enough arguments entered."  pass
+
+--> 6 check(s), 6 ok, 0 failed (0.00%)
+
+== Entering suite #2, "clear_the_screen(): Cleaning screen." ==
+
+[2:1]  test_clear_the_screen:#1  "Screen is clear."  pass
+[2:2]  test_clear_the_screen:#2  "Screen is not clear."  pass
+[2:3]  test_clear_the_screen:#3  "Screen is not clear."  pass
+[2:4]  test_clear_the_screen:#4  "Screen is not clear."  pass
+[2:5]  test_clear_the_screen:#5  "Screen is not clear."  pass
+
+--> 5 check(s), 5 ok, 0 failed (0.00%)
+
+== Entering suite #3, "initialise_stack(): Testing initialise stack function." ==
+
+[3:1]  test_init_stack:#1  "Stack initialisation complete."  pass
+[3:2]  test_init_stack:#2  "Stack initialisation complete."  pass
+[3:3]  test_init_stack:#3  "Stack initialisation complete."  pass
+[3:4]  test_init_stack:#4  "Correctly initialised stack."  pass
+[3:5]  test_init_stack:#5  "Correctly initialised stack."  pass
+[3:6]  test_init_stack:#6  "Correctly initialised stack."  pass
+[3:7]  test_init_stack:#7  "Correctly initialised stack."  pass
+
+--> 7 check(s), 7 ok, 0 failed (0.00%)
+
+== Entering suite #4, "check_file(): Checking file." ==
+
+[4:1]  test_check_file:#1  "Checking elements of structure."  pass
+[4:2]  test_check_file:#2  "Checking elements of structure."  pass
+[4:3]  test_check_file:#3  "Checking elements of structure."  pass
+[4:4]  test_check_file:#4  "Checking elements of structure."  pass
+[4:5]  test_check_file:#5  "Checking elements of structure."  pass
+[4:6]  test_check_file:#6  "Checking elements of structure."  pass
+
+--> 6 check(s), 6 ok, 0 failed (0.00%)
+
+== Entering suite #5, "check_file(): Checking file." ==
+
+[5:1]  test_check_file_2:#1  "Checking elements of structure."  pass
+[5:2]  test_check_file_2:#2  "Checking elements of structure."  pass
+[5:3]  test_check_file_2:#3  "Checking elements of structure."  pass
+[5:4]  test_check_file_2:#4  "Checking elements of structure."  pass
+[5:5]  test_check_file_2:#5  "Checking elements of structure."  pass
+[5:6]  test_check_file_2:#6  "Checking elements of structure."  pass
+
+--> 6 check(s), 6 ok, 0 failed (0.00%)
+
+== Entering suite #6, "check_and_start(): Checking file." ==
+
+[6:1]  test_check_start:#1  "Incorrect opening bracket identified."  pass
+[6:2]  test_check_start:#2  "Missing opening bracket identified."  pass
+[6:3]  test_check_start:#3  "Missing opening bracket identified."  pass
+[6:4]  test_check_start:#4  "Missing opening bracket identified."  pass
+[6:5]  test_check_start:#5  "Missing opening bracket identified."  pass
+
+--> 5 check(s), 5 ok, 0 failed (0.00%)
+
+== Entering suite #7, "same_string(): Testing same string." ==
+
+[7:1]  test_same_string:#1  "Same string correctly identified."  pass
+[7:2]  test_same_string:#2  "Same string correctly identified."  pass
+[7:3]  test_same_string:#3  "Same string correctly identified."  pass
+[7:4]  test_same_string:#4  "Same string correctly identified."  pass
+[7:5]  test_same_string:#5  "Same string correctly identified."  pass
+[7:6]  test_same_string:#6  "Same string correctly identified."  pass
+[7:7]  test_same_string:#7  "Same string correctly identified."  pass
+[7:8]  test_same_string:#8  "Same string correctly identified."  pass
+[7:9]  test_same_string:#9  "Same string correctly identified."  pass
+[7:10]  test_same_string:#10  "Same string correctly identified."  pass
+[7:11]  test_same_string:#11  "Different string correctly identified."  pass
+[7:12]  test_same_string:#12  "Different string correctly identified."  pass
+[7:13]  test_same_string:#13  "Different string correctly identified."  pass
+[7:14]  test_same_string:#14  "Different string correctly identified."  pass
+[7:15]  test_same_string:#15  "Different string correctly identified."  pass
+[7:16]  test_same_string:#16  "Different string correctly identified."  pass
+[7:17]  test_same_string:#17  "Different string correctly identified."  pass
+[7:18]  test_same_string:#18  "Different string correctly identified."  pass
+[7:19]  test_same_string:#19  "Different string correctly identified."  pass
+[7:20]  test_same_string:#20  "Different string correctly identified."  pass
+
+--> 20 check(s), 20 ok, 0 failed (0.00%)
+
+== Entering suite #8, "push_on_stack(): Testing push stack function." ==
+
+[8:1]  test_push_stack:#1  "Stack initialisation complete."  pass
+[8:2]  test_push_stack:#2  "5 is at the top of the stack."  pass
+
+--> 2 check(s), 2 ok, 0 failed (0.00%)
+
+== Entering suite #9, "process_instruction(): Testing instructions." ==
+
+[9:1]  test_instruction:#1  "Passed FD which is valid so should return 1."  pass
+[9:2]  test_instruction:#2  "Passed LT which is valid so should return 1."  pass
+[9:3]  test_instruction:#3  "Passed RT which is valid so should return 1."  pass
+[9:4]  test_instruction:#4  "Passed FD which is valid so should return 1."  pass
+[9:5]  test_instruction:#5  "Passed FD which is valid so should return 1."  pass
+[9:6]  test_instruction:#6  "Passed FD which is valid so should return 1."  pass
+[9:7]  test_instruction:#7  "Passed FD which is valid so should return 1."  pass
+[9:8]  test_instruction:#8  "Passed FD which is valid so should return 1."  pass
+[9:9]  test_instruction:#9  "Passed FD which is valid so should return 1."  pass
+[9:10]  test_instruction:#10  "Passed FD which is valid so should return 1."  pass
+
+--> 10 check(s), 10 ok, 0 failed (0.00%)
+
+== Entering suite #10, "check_FD(): Testing fd function." ==
+
+[10:1]  test_fd:#1  "Incorrect input failed."  pass
+[10:2]  test_fd:#2  "Incorrect input failed."  pass
+[10:3]  test_fd:#3  "Incorrect input failed."  pass
+[10:4]  test_fd:#4  "Incorrect input failed."  pass
+[10:5]  test_fd:#5  "Incorrect input failed."  pass
+[10:6]  test_fd:#6  "Incorrect input failed."  pass
+[10:7]  test_fd:#7  "Incorrect input failed."  pass
+[10:8]  test_fd:#8  "Incorrect input failed."  pass
+[10:9]  test_fd:#9  "Incorrect input failed."  pass
+[10:10]  test_fd:#10  "Incorrect input failed."  pass
+
+--> 10 check(s), 10 ok, 0 failed (0.00%)
+
+== Entering suite #11, "check_LT_RT(): Testing lt function." ==
+
+[11:1]  test_lt:#1  "Correct input passed."  pass
+[11:2]  test_lt:#2  "Incorrect input failed."  pass
+[11:3]  test_lt:#3  "Incorrect input failed."  pass
+[11:4]  test_lt:#4  "Incorrect input failed."  pass
+[11:5]  test_lt:#5  "Incorrect input failed."  pass
+[11:6]  test_lt:#6  "Incorrect input failed."  pass
+[11:7]  test_lt:#7  "Incorrect input failed."  pass
+[11:8]  test_lt:#8  "Incorrect input failed."  pass
+[11:9]  test_lt:#9  "Incorrect input failed."  pass
+[11:10]  test_lt:#10  "Incorrect input failed."  pass
+[11:11]  test_lt:#11  "Incorrect input failed."  pass
+
+--> 11 check(s), 11 ok, 0 failed (0.00%)
+
+== Entering suite #12, "check_LT_RT(): Testing rt function." ==
+
+[12:1]  test_rt:#1  "Correct input passed."  pass
+[12:2]  test_rt:#2  "Incorrect input failed."  pass
+[12:3]  test_rt:#3  "Incorrect input failed."  pass
+[12:4]  test_rt:#4  "Incorrect input failed."  pass
+[12:5]  test_rt:#5  "Incorrect input failed."  pass
+[12:6]  test_rt:#6  "Incorrect input failed."  pass
+[12:7]  test_rt:#7  "Incorrect input failed."  pass
+[12:8]  test_rt:#8  "Incorrect input failed."  pass
+[12:9]  test_rt:#9  "Incorrect input failed."  pass
+[12:10]  test_rt:#10  "Incorrect input failed."  pass
+[12:11]  test_rt:#11  "Incorrect input failed."  pass
+
+--> 11 check(s), 11 ok, 0 failed (0.00%)
+
+== Entering suite #13, "check_DO(): Testing do function." ==
+
+[13:1]  test_do_loop:#1  "Checking elements of structure."  pass
+[13:2]  test_do_loop:#2  "Checking elements of structure."  pass
+[13:3]  test_do_loop:#3  "Correctly identified incorrect instructions."  pass
+[13:4]  test_do_loop:#4  "Correctly identified incorrect instructions."  pass
+[13:5]  test_do_loop:#5  "Correctly identified incorrect instructions."  pass
+[13:6]  test_do_loop:#6  "Correctly identified incorrect instructions."  pass
+[13:7]  test_do_loop:#7  "Correctly identified incorrect instructions."  pass
+
+--> 7 check(s), 7 ok, 0 failed (0.00%)
+
+== Entering suite #14, "check_SET(): Testing set function." ==
+
+[14:1]  test_set:#1  "Checking elements of structure."  pass
+[14:2]  test_set:#2  "Correctly parsed instructions."  pass
+[14:3]  test_set:#3  "Correctly parsed instructions."  pass
+[14:4]  test_set:#4  "Correctly parsed instructions."  pass
+
+--> 4 check(s), 4 ok, 0 failed (0.00%)
+
+== Entering suite #15, "check_varnum(): Testing varnum function." ==
+
+[15:1]  test_varnum:#1  "Checking elements of structure."  pass
+[15:2]  test_varnum:#2  "Correctly parsed instructions."  pass
+[15:3]  test_varnum:#3  "Correctly parsed instructions."  pass
+[15:4]  test_varnum:#4  "Correctly parsed instructions."  pass
+[15:5]  test_varnum:#5  "Correctly parsed instructions."  pass
+[15:6]  test_varnum:#6  "Correctly parsed instructions."  pass
+[15:7]  test_varnum:#7  "Correctly identified invalid instructions."  pass
+[15:8]  test_varnum:#8  "Correctly identified invalid instructions."  pass
+[15:9]  test_varnum:#9  "Correctly identified invalid instructions."  pass
+[15:10]  test_varnum:#10  "Correctly identified invalid instructions."  pass
+[15:11]  test_varnum:#11  "Correctly identified invalid instructions."  pass
+
+--> 11 check(s), 11 ok, 0 failed (0.00%)
+
+== Entering suite #16, "check_var(): Testing var function." ==
+
+[16:1]  test_var:#1  "Checking elements of structure."  pass
+[16:2]  test_var:#2  "Correctly parsed instructions."  pass
+[16:3]  test_var:#3  "Correctly parsed instructions."  pass
+[16:4]  test_var:#4  "Correctly parsed instructions."  pass
+[16:5]  test_var:#5  "Correctly parsed instructions."  pass
+[16:6]  test_var:#6  "Correctly parsed instructions."  pass
+[16:7]  test_var:#7  "Correctly identified invalid instructions."  pass
+[16:8]  test_var:#8  "Correctly identified invalid instructions."  pass
+[16:9]  test_var:#9  "Correctly identified invalid instructions."  pass
+[16:10]  test_var:#10  "Correctly identified invalid instructions."  pass
+[16:11]  test_var:#11  "Correctly identified invalid instructions."  pass
+
+--> 11 check(s), 11 ok, 0 failed (0.00%)
+
+== Entering suite #17, "check_polish(): Testing polish function." ==
+
+[17:1]  test_polish:#1  "Checking elements of structure."  pass
+
+--> 1 check(s), 1 ok, 0 failed (0.00%)
+
+== Entering suite #18, "check_op(): Testing op function." ==
+
+[18:1]  test_op:#1  "Correctly parsed instructions using '+'."  pass
+[18:2]  test_op:#2  "Correctly parsed instructions using '-'."  pass
+[18:3]  test_op:#3  "Correctly parsed instructions using '*'."  pass
+[18:4]  test_op:#4  "Correctly parsed instructions using '/'."  pass
+[18:5]  test_op:#5  "Correctly identified invalid instructions."  pass
+[18:6]  test_op:#6  "Correctly identified invalid instructions."  pass
+[18:7]  test_op:#7  "Correctly identified invalid instructions."  pass
+[18:8]  test_op:#8  "Correctly identified invalid instructions."  pass
+[18:9]  test_op:#9  "Correctly identified invalid instructions."  pass
+[18:10]  test_op:#10  "Correctly identified invalid instructions."  pass
+
+--> 10 check(s), 10 ok, 0 failed (0.00%)
+
+== Entering suite #19, "free_stack(): Testing free stack function." ==
+
+[19:1]  test_free_stack:#1  "Stack freed."  pass
+
+--> 1 check(s), 1 ok, 0 failed (0.00%)
+
+==> 144 check(s) in 19 suite(s) finished after 0.00 second(s),
+    144 succeeded, 0 failed (0.00%)
+
+[SUCCESS]
+Error: Too few arguments entered.
+Cannot open.

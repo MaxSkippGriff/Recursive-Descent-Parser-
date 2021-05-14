@@ -1,0 +1,34 @@
+Extension
+---------
+
+  My extension consists of:
+
+  - A password manager with encryption and decryption
+  
+  This can be found at the beginning of the interp.c file.
+
+
+Password
+---------
+
+  After the parser has been executed and before the interpreter
+  has been executed, you will be prompted to enter your name
+  and password. You will then be shown the name, key and the
+  encrypted output of your password. This data is stored in
+  the file "oldPass.txt".
+
+  You will have to do this before every new turtle shape.
+  I have added a delete function to delete passwords
+  after they've been used. This is to avoid the same name
+  and password being stored more than once which causes 
+  two different encryptions and leads to issues with recovering
+  the correct decrypted password.
+
+  Continue this process before each shape and try out different 
+  passwords. It's a little bit laborious but that's the nature 
+  of the password manager beast.
+
+  NB:- Please don't use special characters - the algorithms for
+  performing encryption and decryption only decodes upper/
+  lowercase letters and numbers.
+

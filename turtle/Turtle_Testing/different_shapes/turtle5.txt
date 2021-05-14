@@ -1,0 +1,7 @@
+{
+	DO A FROM 1 TO 500 {
+		SET C := A 500 - ;
+		FD A
+		LT 90
+	}
+}

@@ -1,0 +1,54 @@
+
+Testing Strategy
+----------------
+
+  My testing strategy focused on unit testing. From design to
+  implementation, I used a lightweight testing harness to test
+  the parser and interpreter.
+
+  There are, as I see it, two main advantages of a lightweight
+  testing harness over boolean assert() testing code:
+
+  1. Firstly, a testing harness provides a more detailed series
+     of messages regarding assertion failure (that is, expected
+     vs. actual value). It also generates a report which gives
+     a clear breakdown of all test results. It is therefore
+     more informative than assert testing.
+
+  2. Secondly, whereas assert testing stops on the first failed
+     assertion, unit testing allows for the execution of all
+     test cases, thereby enabling a full execution of the code
+     to assist in managing and debugging code.
+
+  Another important point concerns the practicality of unit
+  testing. A testing harness offers a standardised framework
+  for automatically testing code. It serves to ensure that the
+  code does not regress to a weaker state (which can be overcome
+  through regression testing) and makes the code clear and
+  maintainable.
+
+  It was hard to perform true ‘black box’ tests because I knew
+  the code inside out. For this reason, most of my testing can
+  be described as “white box” testing. (As you will see, I didn’t
+  separate testing into “white” and “black” box testing, although
+  that is something I could have explored).
+
+  There are many different C testing harnesses. Some are more
+  complicated than others and some have loads of assertions.
+  I chose to go for a lightweight framework called ‘sput’,
+  a ‘simple, portable unit testing’ framework for C/C++.
+  The reason was simple:  I only required basic assertions
+  (as opposed to the larger, alternative testing harnesses like
+  Unity and CUnit). So, I felt that if I used those basic
+  assertions thoroughly the outcome would be have been similar
+  to using a larger range of assertion conditions.
+
+  More generally, I thought it would be useful skill to learn.
+  I intend to become a software engineer, which entails lots of
+  unit testing, so it made sense to learn how to unit test.
+
+  Regression testing, namely tests to make sure your code does
+  not regress to a weaker state, was done throughout the build.
+
+  All testing for parser and interpreter are in this Turtle_Testing
+  folder. The testing files are in the testing_files folder.
