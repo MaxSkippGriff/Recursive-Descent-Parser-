@@ -1,6 +1,6 @@
 ## Recursive-Descent-Parser
 
-This is the basic version of the recursive descent parser for turtle graphics, the simple drawing language.
+This is my recursive descent parser for turtle graphics, the simple drawing language.
 
 The parser forms the first part of the recursive descent parser. It receives instructions such as 'go forward, go left' etc,
 and checks that the instructions comply with the turtle grammar. The grammar is provided below:
