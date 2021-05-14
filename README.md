@@ -46,4 +46,4 @@ And finally:
 
 </div>
 
-All code is ANSI C90 compliant.
+All code is ANSI C90 compliant, as per Dr Neill Campbell's guidance.
