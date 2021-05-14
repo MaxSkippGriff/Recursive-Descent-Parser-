@@ -45,3 +45,5 @@ And finally:
 ![alt text](./images/turtle3.png)
 
 </div>
+
+All code is ANSI C90 compliant.
