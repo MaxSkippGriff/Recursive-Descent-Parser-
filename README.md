@@ -9,12 +9,24 @@ turtle grammar. It then passes those instructions to the interpreter which draws
 
 The drawings can be really cool. For instance:
 
+<div align="center">
+
 ![alt text](./images/turtle1.png)
+
+</div>
 
 And this one:
 
+<div align="center">
+
 ![alt text](./images/turtle2.png)
+
+</div>
 
 And finally:
 
+<div align="center">
+
 ![alt text](./images/turtle3.png)
+
+</div>
