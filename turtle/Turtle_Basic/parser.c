@@ -205,10 +205,6 @@ char pop_off_stack(polish_stack *s)
    free(s->tp);
    s->tp = s->tp->prev;
 
-   if(s->tp == NULL){
-      ERROR("Problem with number of variables on stack.");
-   }
-
    if(s->tp != NULL){
       return s->tp->i;
    }
